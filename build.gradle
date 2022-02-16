@@ -34,5 +34,8 @@ dependencies {
     implementation 'com.h2database:h2'
     implementation 'org.springframework.boot:spring-boot-starter-mustache'
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    implementation 'org.springframework.session:spring-session-jdbc'
+    implementation 'org.springframework.security:spring-security-test'
 }
 
